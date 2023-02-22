@@ -7,3 +7,5 @@ Dict.o: Dict.c Dict.h WFreq.h
 stemmer.o: stemmer.c stemmer.h
 	gcc -c stemmer.c -o stemmer.o
 
+target: prerequisites
+	recipe
