@@ -16,6 +16,12 @@ for (int i = 0; i < n; i++) { // O(n^2)
 	}
 }
 
-for (int i = 0; i < n; i++) { // 
-	strlen(a[i]);
+void f() {
+	for (int i = 0; i < n; i++) { // O(n^2) 
+		strlen(a[i]); //O(n)
+	}
 }
+
+f(); //O(n^2)
+
+
